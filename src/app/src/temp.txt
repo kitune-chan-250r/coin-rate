@@ -1,0 +1,9 @@
+module appmodule {
+
+    exports app;
+    requires java.net.http;
+    requires transitive javafx.graphics;
+    requires transitive javafx.controls;
+    requires transitive javafx.fxml;
+    opens app to javafx.fxml;
+}

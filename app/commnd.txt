@@ -1,0 +1,1 @@
+jlink --compress=2 --module-path E:\Codes\java_lib\javafx-jmods-16 --add-modules java.base,javafx.controls,javafx.fxml,java.net.http,javafx.graphics,jdk.crypto.ec --output jre-ssl
